@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Inter",
+        body: "Inter",
+        code: "IBM Plex Mono", // Kept standard, adjust if you have a branded monospaced font
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f8fafc",          // --bg-color
+          lightgray: "#e2e8f0",      // Extrapolated solid border/card color
+          gray: "#64748b",           // --text-muted
+          darkgray: "#334155",       // Extrapolated body text color
+          dark: "#171321",           // --text-main (Headings/bold)
+          secondary: "#089AD9",      // --accent-primary (Links/Current graph node)
+          tertiary: "#9179CD",       // --accent-secondary (Hover states/Visited nodes)
+          highlight: "rgba(8, 154, 217, 0.15)", // Based on --accent-primary
+          textHighlight: "rgba(8, 154, 217, 0.25)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0f172a",          // --bg-color
+          lightgray: "#1e293b",      // --card-bg (Used for borders/UI backgrounds)
+          gray: "#94a3b8",           // --text-muted
+          darkgray: "#cbd5e1",       // Extrapolated body text color
+          dark: "#f8fafc",           // --text-main (Headings/bold)
+          secondary: "#09A8EC",      // --accent-primary
+          tertiary: "#9179CD",       // --accent-secondary
+          highlight: "rgba(9, 168, 236, 0.15)", // Based on --accent-primary
+          textHighlight: "rgba(9, 168, 236, 0.25)",
         },
       },
     },
