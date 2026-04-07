@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f8fafc",          // --bg-color
-          lightgray: "#e2e8f0",      // Extrapolated solid border/card color
-          gray: "#64748b",           // --text-muted
-          darkgray: "#334155",       // Extrapolated body text color
-          dark: "#171321",           // --text-main (Headings/bold)
-          secondary: "#089AD9",      // --accent-primary (Links/Current graph node)
-          tertiary: "#9179CD",       // --accent-secondary (Hover states/Visited nodes)
-          highlight: "rgba(8, 154, 217, 0.15)", // Based on --accent-primary
-          textHighlight: "rgba(8, 154, 217, 0.25)",
+          light: "#F5F0E1",          // Warm Ivory - Primary background
+          lightgray: "#E5DCC8",      // Slightly darker ivory for borders/cards
+          gray: "#6A8859",           // Sage Green - Muted text
+          darkgray: "#2B2A27",       // Charcoal Ink - Body text
+          dark: "#2B2A27",           // Charcoal Ink - Headings/bold
+          secondary: "#964846",      // Terracotta Red - Primary links
+          tertiary: "#6D8DA6",       // Muted Denim Blue - Hover states
+          highlight: "rgba(150, 72, 70, 0.15)", // Terracotta Red highlight
+          textHighlight: "rgba(216, 167, 96, 0.25)", // Golden Mustard highlight
         },
         darkMode: {
-          light: "#0f172a",          // --bg-color
-          lightgray: "#1e293b",      // --card-bg (Used for borders/UI backgrounds)
-          gray: "#94a3b8",           // --text-muted
-          darkgray: "#cbd5e1",       // Extrapolated body text color
-          dark: "#f8fafc",           // --text-main (Headings/bold)
-          secondary: "#09A8EC",      // --accent-primary
-          tertiary: "#9179CD",       // --accent-secondary
-          highlight: "rgba(9, 168, 236, 0.15)", // Based on --accent-primary
-          textHighlight: "rgba(9, 168, 236, 0.25)",
+          light: "#1A1918",          // Dark charcoal background
+          lightgray: "#2B2A27",      // Charcoal for borders/cards
+          gray: "#6A8859",           // Sage Green - Muted text
+          darkgray: "#E5DCC8",       // Light ivory - Body text
+          dark: "#F5F0E1",           // Warm Ivory - Headings/bold
+          secondary: "#964846",      // Terracotta Red - Primary links
+          tertiary: "#D8A760",       // Golden Mustard - Hover states
+          highlight: "rgba(150, 72, 70, 0.15)", // Terracotta Red highlight
+          textHighlight: "rgba(216, 167, 96, 0.25)", // Golden Mustard highlight
         },
       },
     },

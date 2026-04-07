@@ -2,6 +2,71 @@
 
 // put your custom CSS here!
 
+// Custom callout colors using warm academic palette
+.callout {
+  &[data-callout] {
+    --color: #6D8DA6;        // Muted Denim Blue
+    --border: #6D8DA644;
+    --bg: #6D8DA610;
+  }
+
+  &[data-callout="abstract"] {
+    --color: #6D8DA6;        // Muted Denim Blue
+    --border: #6D8DA644;
+    --bg: #6D8DA610;
+  }
+
+  &[data-callout="info"],
+  &[data-callout="todo"] {
+    --color: #6D8DA6;        // Muted Denim Blue
+    --border: #6D8DA644;
+    --bg: #6D8DA610;
+  }
+
+  &[data-callout="tip"] {
+    --color: #8BA87A;        // Sage Green
+    --border: #8BA87A44;
+    --bg: #8BA87A10;
+  }
+
+  &[data-callout="success"] {
+    --color: #8BA87A;        // Sage Green
+    --border: #8BA87A44;
+    --bg: #8BA87A10;
+  }
+
+  &[data-callout="question"] {
+    --color: #D8A760;        // Golden Mustard
+    --border: #D8A76044;
+    --bg: #D8A76010;
+  }
+
+  &[data-callout="warning"] {
+    --color: #D8A760;        // Golden Mustard
+    --border: #D8A76044;
+    --bg: #D8A76010;
+  }
+
+  &[data-callout="failure"],
+  &[data-callout="danger"],
+  &[data-callout="bug"] {
+    --color: #964846;        // Terracotta Red
+    --border: #96484644;
+    --bg: #96484610;
+  }
+
+  &[data-callout="example"] {
+    --color: #6D8DA6;        // Muted Denim Blue
+    --border: #6D8DA644;
+    --bg: #6D8DA610;
+  }
+
+  &[data-callout="quote"] {
+    --color: #964846;        // Terracotta Red (matches links)
+    --border: #E5DCC8;       // Lighter ivory border
+  }
+}
+
 // Increased spacing in Explorer
 .explorer-content {
   ul li {
