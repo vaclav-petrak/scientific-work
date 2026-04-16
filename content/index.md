@@ -19,6 +19,7 @@ As clear and compelling data visualization is a requirement for successful poste
 > - For information on making on slides, plots and tables see [[effective_presentation_design.pdf|Effective Presentation Design ]].
 >  - In addition you can read through materials [[statistika_pohledem_oponenta.pdf|Statistics and presentation of data]]  🇨🇿.
 >  - Instructions on  [[posters.pdf|Poster design]].
+>  - See [[Course Tasks Details]] for more detailed information.
 
 
  
