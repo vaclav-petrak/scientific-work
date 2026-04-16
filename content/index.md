@@ -40,7 +40,7 @@ As clear and compelling data visualization is a requirement for successful poste
 - [[7. Career options in research]]: Outlines the traditional academic trajectory alongside industry R&D roles, government policy, and application specialist positions.
 
 #### Oral Presentation as a Form of Scientific Communication
-- [[8. Effective presentation sesign]] This presentation covers the core principles of effective presentation design and shows how to clearly communicate complex ideas to your audience. 
+- [[8. Effective presentation design]] This presentation covers the core principles of effective presentation design and shows how to clearly communicate complex ideas to your audience. 
 
 
 ---
@@ -60,7 +60,10 @@ As clear and compelling data visualization is a requirement for successful poste
 * [[14. Smart search strategies]]: Practical instruction on discovering relevant literature by tracking forward and backward citations of key articles (exploring their reference lists and "cited by" links), often combined with advanced filtering to narrow down results.
 * [[15. How to cite correctly]]: The difference between quoting and paraphrasing, avoiding accidental plagiarism.
 #### Presentation of Scientific Results Using Posters
--  Presentation of results 
+-  [[16. Presentation of Scientific Results Using Posters]] This presentation covers the core principles of poster presentation design
+
+
+
 
 ---
 
